@@ -1237,6 +1237,10 @@ class FunkinLua {
 			#end
 		});
 		
+		Lua_helper.add_callback(lua, "openUrl", function(url:String) {
+                        CoolUtil.browserLoad(url);
+		});
+					
 		Lua_helper.add_callback(lua, "playMusic", function(sound:String, volume:Float = 1, loop:Bool = false) {
 			FlxG.sound.playMusic(Paths.music(sound), volume, loop);
 		});
