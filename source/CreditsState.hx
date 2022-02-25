@@ -81,9 +81,11 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Gamer Engine'],
-			['GamerZone',		'emptycredit',		'The guy that made this engine or whatever, I have no icon yet',						'https://youtu.be/dQw4w9WgXcQ',	'FFDD33'],
-			['PrismLight',			'prism',		'Better health bar, sadly it did not work but I will still credit him he is a cool guy',					'https://github.com/PrismLight',		'FF00FF'],
-			['jigsaw-4277821',			'jigsaw',		'Made the open url with LUA',					'https://github.com/jigsaw-4277821',		'FE0000'],
+			['GamerZone',		'noicon',		'The guy that made this engine or whatever, I have no icon yet',						'https://youtu.be/dQw4w9WgXcQ',	'FFDD33'],
+			['PrismLight',			'noicon',		'Better health bar, sadly it did not work but I will still credit him he is a cool guy',					'https://github.com/PrismLight',		'FF00FF'],
+			['jigsaw-4277821',			'noicon',		'Made the open url with LUA',					'https://github.com/jigsaw-4277821',		'FE0000'],
+			['craftersshaft',			'noicon',		'load song in LUA',					'https://github.com/craftersshaft',		'0094FF'],
+			['CyndaquilDAC',			'noicon',		'BPMs in chart editor are no longer capped at 339',					'https://github.com/CyndaquilDAC',		'0E0D12'],
 			[''],
 			['Psych Engine Extra Keys'],
 			['tposejank', 			'unknown',			'Main programmer of ~~the keys~~', 						'https://twitter.com/tpose_jank', 		'000000'],
