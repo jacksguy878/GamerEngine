@@ -15,8 +15,10 @@ To install LuaJIT do this: `haxelib git linc_luajit https://github.com/AndreiRud
 _____________________________________
 
 # Features
-
-## All Psych Features
-* It has all psych engine features duh
-## Gamer Engine Features
-* I will add those later I guess
+## All Psych Engine With Extra Keys Features!
+All features in Psych Engine with extra keys are here!
+## LUA Stuff
+* open URL by just doing openUrl('URLHERE') use this for stuff like opening youtuber vids and other stuff\
+* load song in LUA by loadSong('JSONFILE', 'FOLDER', SKIP TRANSITION TRUE OR FALSE) (example loadSong('tutorial-hard', 'tutorial', true))
+## Other Small Stuff
+*  max BPM is 1000 now I guess
